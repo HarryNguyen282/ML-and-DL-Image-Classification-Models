@@ -16,9 +16,7 @@ end
 %  text files. 
 
 % Define the folder containing dataset
-folder = "C:/Users/melio/OneDrive - University of Canberra " + ...
-    "(student)/UC - IT/Sem 1 - 2023/8890 - " + ...
-    "Computer Vision and Image Analysis/CUB_200_2011/";
+folder = "path/CUB_200_2011/";
 
 trainingImageNames = readtable(fullfile(folder, "train.txt"), ... 
     'ReadVariableNames', false);
