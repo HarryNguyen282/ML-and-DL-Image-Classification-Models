@@ -13,9 +13,7 @@ end
 clc;
 
 %% Read the image data from the relevant text files. 
-folder = "C:/Users/melio/OneDrive - University of Canberra " + ...
-    "(student)/UC - IT/Sem 1 - 2023/8890 - " + ...
-    "Computer Vision and Image Analysis/CUB_200_2011/";
+folder = "path/CUB_200_2011/";
 imgFolder = folder + "images/";
 imgTxtFolder = folder + "images.txt";
 
